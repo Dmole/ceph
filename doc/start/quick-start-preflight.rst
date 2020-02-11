@@ -3,7 +3,9 @@
 =====================
 
 The ``ceph-deploy`` tool operates out of a directory on an admin
-:term:`node`.  Any host with network connectivity and a modern python
+:term:`node`. Before proceeding any further, see `OS Recommendations`_ to
+verify that you have a supported distribution and version of Linux.
+Any host with network connectivity and a modern python
 environment and ssh (such as Linux) should work.
 
 In the descriptions below, :term:`Node` refers to a single machine.
